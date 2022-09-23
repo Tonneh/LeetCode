@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.23)
+project(LeetCode)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(128 "128. Longest Consecutive Sequence.cpp")
+add_executable(217 "217. Contains Duplicate.cpp")
+add_executable(3 "3. Longest Substring Without Repeating Characters .cpp")
+add_executable(2225 "2225. Find Players With Zero or One Losses.cpp")
+add_executable(525 "525. Contiguous Array.cpp")
+add_executable(560. "560. Subarray Sum Equals K.cpp")
+add_executable(424 "424. Longest Repeating Character Replacement.cpp")
