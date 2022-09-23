@@ -271,6 +271,72 @@ build 424.exe: CXX_EXECUTABLE_LINKER__424_Debug CMakeFiles/424.dir/424._Longest_
   TARGET_IMPLIB = lib424.dll.a
   TARGET_PDB = 424.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 125
+
+
+#############################################
+# Order-only phony target for 125
+
+build cmake_object_order_depends_target_125: phony || CMakeFiles/125.dir
+
+build CMakeFiles/125.dir/125._Valid_Palindrome.cpp.obj: CXX_COMPILER__125_Debug C$:/Users/Tony/Desktop/LeetCode/125.$ Valid$ Palindrome.cpp || cmake_object_order_depends_target_125
+  DEP_FILE = CMakeFiles\125.dir\125._Valid_Palindrome.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\125.dir
+  OBJECT_FILE_DIR = CMakeFiles\125.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 125
+
+
+#############################################
+# Link the executable 125.exe
+
+build 125.exe: CXX_EXECUTABLE_LINKER__125_Debug CMakeFiles/125.dir/125._Valid_Palindrome.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\125.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 125.exe
+  TARGET_IMPLIB = lib125.dll.a
+  TARGET_PDB = 125.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 167
+
+
+#############################################
+# Order-only phony target for 167
+
+build cmake_object_order_depends_target_167: phony || CMakeFiles/167.dir
+
+build CMakeFiles/167.dir/167._Two_Sum_II_-_Input_Array_Is_Sorted.cpp.obj: CXX_COMPILER__167_Debug C$:/Users/Tony/Desktop/LeetCode/167.$ Two$ Sum$ II$ -$ Input$ Array$ Is$ Sorted.cpp || cmake_object_order_depends_target_167
+  DEP_FILE = CMakeFiles\167.dir\167._Two_Sum_II_-_Input_Array_Is_Sorted.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\167.dir
+  OBJECT_FILE_DIR = CMakeFiles\167.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 167
+
+
+#############################################
+# Link the executable 167.exe
+
+build 167.exe: CXX_EXECUTABLE_LINKER__167_Debug CMakeFiles/167.dir/167._Two_Sum_II_-_Input_Array_Is_Sorted.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\167.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 167.exe
+  TARGET_IMPLIB = lib167.dll.a
+  TARGET_PDB = 167.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -297,7 +363,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 125: phony 125.exe
+
 build 128: phony 128.exe
+
+build 167: phony 167.exe
 
 build 217: phony 217.exe
 
@@ -319,7 +389,7 @@ build 560.: phony 560..exe
 #############################################
 # Folder: C:/Users/Tony/Desktop/LeetCode/cmake-build-debug
 
-build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe
+build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe
 
 # =============================================================================
 # Built-in targets
