@@ -403,6 +403,204 @@ build 15.exe: CXX_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/15._3Sum.cpp.obj
   TARGET_IMPLIB = lib15.dll.a
   TARGET_PDB = 15.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 70
+
+
+#############################################
+# Order-only phony target for 70
+
+build cmake_object_order_depends_target_70: phony || CMakeFiles/70.dir
+
+build CMakeFiles/70.dir/70._Climbing_Stairs.cpp.obj: CXX_COMPILER__70_Debug C$:/Users/Tony/Desktop/LeetCode/70.$ Climbing$ Stairs.cpp || cmake_object_order_depends_target_70
+  DEP_FILE = CMakeFiles\70.dir\70._Climbing_Stairs.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\70.dir
+  OBJECT_FILE_DIR = CMakeFiles\70.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 70
+
+
+#############################################
+# Link the executable 70.exe
+
+build 70.exe: CXX_EXECUTABLE_LINKER__70_Debug CMakeFiles/70.dir/70._Climbing_Stairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\70.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 70.exe
+  TARGET_IMPLIB = lib70.dll.a
+  TARGET_PDB = 70.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 746
+
+
+#############################################
+# Order-only phony target for 746
+
+build cmake_object_order_depends_target_746: phony || CMakeFiles/746.dir
+
+build CMakeFiles/746.dir/746._Min_Cost_Climbing_Stairs.cpp.obj: CXX_COMPILER__746_Debug C$:/Users/Tony/Desktop/LeetCode/746.$ Min$ Cost$ Climbing$ Stairs.cpp || cmake_object_order_depends_target_746
+  DEP_FILE = CMakeFiles\746.dir\746._Min_Cost_Climbing_Stairs.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\746.dir
+  OBJECT_FILE_DIR = CMakeFiles\746.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 746
+
+
+#############################################
+# Link the executable 746.exe
+
+build 746.exe: CXX_EXECUTABLE_LINKER__746_Debug CMakeFiles/746.dir/746._Min_Cost_Climbing_Stairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\746.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 746.exe
+  TARGET_IMPLIB = lib746.dll.a
+  TARGET_PDB = 746.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 198
+
+
+#############################################
+# Order-only phony target for 198
+
+build cmake_object_order_depends_target_198: phony || CMakeFiles/198.dir
+
+build CMakeFiles/198.dir/198._House_Robber.cpp.obj: CXX_COMPILER__198_Debug C$:/Users/Tony/Desktop/LeetCode/198.$ House$ Robber.cpp || cmake_object_order_depends_target_198
+  DEP_FILE = CMakeFiles\198.dir\198._House_Robber.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\198.dir
+  OBJECT_FILE_DIR = CMakeFiles\198.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 198
+
+
+#############################################
+# Link the executable 198.exe
+
+build 198.exe: CXX_EXECUTABLE_LINKER__198_Debug CMakeFiles/198.dir/198._House_Robber.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\198.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 198.exe
+  TARGET_IMPLIB = lib198.dll.a
+  TARGET_PDB = 198.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 213
+
+
+#############################################
+# Order-only phony target for 213
+
+build cmake_object_order_depends_target_213: phony || CMakeFiles/213.dir
+
+build CMakeFiles/213.dir/213._House_Robber_II.cpp.obj: CXX_COMPILER__213_Debug C$:/Users/Tony/Desktop/LeetCode/213.$ House$ Robber$ II.cpp || cmake_object_order_depends_target_213
+  DEP_FILE = CMakeFiles\213.dir\213._House_Robber_II.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\213.dir
+  OBJECT_FILE_DIR = CMakeFiles\213.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 213
+
+
+#############################################
+# Link the executable 213.exe
+
+build 213.exe: CXX_EXECUTABLE_LINKER__213_Debug CMakeFiles/213.dir/213._House_Robber_II.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\213.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 213.exe
+  TARGET_IMPLIB = lib213.dll.a
+  TARGET_PDB = 213.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5
+
+
+#############################################
+# Order-only phony target for 5
+
+build cmake_object_order_depends_target_5: phony || CMakeFiles/5.dir
+
+build CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj: CXX_COMPILER__5_Debug C$:/Users/Tony/Desktop/LeetCode/5.$ Longest$ Palindromic$ Substring.cpp || cmake_object_order_depends_target_5
+  DEP_FILE = CMakeFiles\5.dir\5._Longest_Palindromic_Substring.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\5.dir
+  OBJECT_FILE_DIR = CMakeFiles\5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5
+
+
+#############################################
+# Link the executable 5.exe
+
+build 5.exe: CXX_EXECUTABLE_LINKER__5_Debug CMakeFiles/5.dir/5._Longest_Palindromic_Substring.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5.exe
+  TARGET_IMPLIB = lib5.dll.a
+  TARGET_PDB = 5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 647
+
+
+#############################################
+# Order-only phony target for 647
+
+build cmake_object_order_depends_target_647: phony || CMakeFiles/647.dir
+
+build CMakeFiles/647.dir/647._Palindromic_Substrings.cpp.obj: CXX_COMPILER__647_Debug C$:/Users/Tony/Desktop/LeetCode/647.$ Palindromic$ Substrings.cpp || cmake_object_order_depends_target_647
+  DEP_FILE = CMakeFiles\647.dir\647._Palindromic_Substrings.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\647.dir
+  OBJECT_FILE_DIR = CMakeFiles\647.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 647
+
+
+#############################################
+# Link the executable 647.exe
+
+build 647.exe: CXX_EXECUTABLE_LINKER__647_Debug CMakeFiles/647.dir/647._Palindromic_Substrings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\647.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 647.exe
+  TARGET_IMPLIB = lib647.dll.a
+  TARGET_PDB = 647.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -439,6 +637,10 @@ build 15: phony 15.exe
 
 build 167: phony 167.exe
 
+build 198: phony 198.exe
+
+build 213: phony 213.exe
+
 build 217: phony 217.exe
 
 build 2225: phony 2225.exe
@@ -447,9 +649,17 @@ build 3: phony 3.exe
 
 build 424: phony 424.exe
 
+build 5: phony 5.exe
+
 build 525: phony 525.exe
 
 build 560.: phony 560..exe
+
+build 647: phony 647.exe
+
+build 70: phony 70.exe
+
+build 746: phony 746.exe
 
 # =============================================================================
 # Folder targets.
@@ -459,7 +669,7 @@ build 560.: phony 560..exe
 #############################################
 # Folder: C:/Users/Tony/Desktop/LeetCode/cmake-build-debug
 
-build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe
+build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe 70.exe 746.exe 198.exe 213.exe 5.exe 647.exe
 
 # =============================================================================
 # Built-in targets
