@@ -601,6 +601,138 @@ build 647.exe: CXX_EXECUTABLE_LINKER__647_Debug CMakeFiles/647.dir/647._Palindro
   TARGET_IMPLIB = lib647.dll.a
   TARGET_PDB = 647.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 20
+
+
+#############################################
+# Order-only phony target for 20
+
+build cmake_object_order_depends_target_20: phony || CMakeFiles/20.dir
+
+build CMakeFiles/20.dir/20._Valid_Parentheses.cpp.obj: CXX_COMPILER__20_Debug C$:/Users/Tony/Desktop/LeetCode/20.$ Valid$ Parentheses.cpp || cmake_object_order_depends_target_20
+  DEP_FILE = CMakeFiles\20.dir\20._Valid_Parentheses.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\20.dir
+  OBJECT_FILE_DIR = CMakeFiles\20.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20
+
+
+#############################################
+# Link the executable 20.exe
+
+build 20.exe: CXX_EXECUTABLE_LINKER__20_Debug CMakeFiles/20.dir/20._Valid_Parentheses.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\20.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 20.exe
+  TARGET_IMPLIB = lib20.dll.a
+  TARGET_PDB = 20.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 155
+
+
+#############################################
+# Order-only phony target for 155
+
+build cmake_object_order_depends_target_155: phony || CMakeFiles/155.dir
+
+build CMakeFiles/155.dir/155._Min_Stack.cpp.obj: CXX_COMPILER__155_Debug C$:/Users/Tony/Desktop/LeetCode/155.$ Min$ Stack.cpp || cmake_object_order_depends_target_155
+  DEP_FILE = CMakeFiles\155.dir\155._Min_Stack.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\155.dir
+  OBJECT_FILE_DIR = CMakeFiles\155.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 155
+
+
+#############################################
+# Link the executable 155.exe
+
+build 155.exe: CXX_EXECUTABLE_LINKER__155_Debug CMakeFiles/155.dir/155._Min_Stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\155.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 155.exe
+  TARGET_IMPLIB = lib155.dll.a
+  TARGET_PDB = 155.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 150
+
+
+#############################################
+# Order-only phony target for 150
+
+build cmake_object_order_depends_target_150: phony || CMakeFiles/150.dir
+
+build CMakeFiles/150.dir/150._Evaluate_Reverse_Polish_Notation.cpp.obj: CXX_COMPILER__150_Debug C$:/Users/Tony/Desktop/LeetCode/150.$ Evaluate$ Reverse$ Polish$ Notation.cpp || cmake_object_order_depends_target_150
+  DEP_FILE = CMakeFiles\150.dir\150._Evaluate_Reverse_Polish_Notation.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\150.dir
+  OBJECT_FILE_DIR = CMakeFiles\150.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 150
+
+
+#############################################
+# Link the executable 150.exe
+
+build 150.exe: CXX_EXECUTABLE_LINKER__150_Debug CMakeFiles/150.dir/150._Evaluate_Reverse_Polish_Notation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\150.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 150.exe
+  TARGET_IMPLIB = lib150.dll.a
+  TARGET_PDB = 150.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 739
+
+
+#############################################
+# Order-only phony target for 739
+
+build cmake_object_order_depends_target_739: phony || CMakeFiles/739.dir
+
+build CMakeFiles/739.dir/739._Daily_Temperatures.cpp.obj: CXX_COMPILER__739_Debug C$:/Users/Tony/Desktop/LeetCode/739.$ Daily$ Temperatures.cpp || cmake_object_order_depends_target_739
+  DEP_FILE = CMakeFiles\739.dir\739._Daily_Temperatures.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\739.dir
+  OBJECT_FILE_DIR = CMakeFiles\739.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 739
+
+
+#############################################
+# Link the executable 739.exe
+
+build 739.exe: CXX_EXECUTABLE_LINKER__739_Debug CMakeFiles/739.dir/739._Daily_Temperatures.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\739.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 739.exe
+  TARGET_IMPLIB = lib739.dll.a
+  TARGET_PDB = 739.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -635,9 +767,15 @@ build 128: phony 128.exe
 
 build 15: phony 15.exe
 
+build 150: phony 150.exe
+
+build 155: phony 155.exe
+
 build 167: phony 167.exe
 
 build 198: phony 198.exe
+
+build 20: phony 20.exe
 
 build 213: phony 213.exe
 
@@ -659,6 +797,8 @@ build 647: phony 647.exe
 
 build 70: phony 70.exe
 
+build 739: phony 739.exe
+
 build 746: phony 746.exe
 
 # =============================================================================
@@ -669,7 +809,7 @@ build 746: phony 746.exe
 #############################################
 # Folder: C:/Users/Tony/Desktop/LeetCode/cmake-build-debug
 
-build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe 70.exe 746.exe 198.exe 213.exe 5.exe 647.exe
+build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe 70.exe 746.exe 198.exe 213.exe 5.exe 647.exe 20.exe 155.exe 150.exe 739.exe
 
 # =============================================================================
 # Built-in targets
