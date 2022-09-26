@@ -733,6 +733,39 @@ build 739.exe: CXX_EXECUTABLE_LINKER__739_Debug CMakeFiles/739.dir/739._Daily_Te
   TARGET_IMPLIB = lib739.dll.a
   TARGET_PDB = 739.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 42
+
+
+#############################################
+# Order-only phony target for 42
+
+build cmake_object_order_depends_target_42: phony || CMakeFiles/42.dir
+
+build CMakeFiles/42.dir/42._Trapping_Rain_Water.cpp.obj: CXX_COMPILER__42_Debug C$:/Users/Tony/Desktop/LeetCode/42.$ Trapping$ Rain$ Water.cpp || cmake_object_order_depends_target_42
+  DEP_FILE = CMakeFiles\42.dir\42._Trapping_Rain_Water.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\42.dir
+  OBJECT_FILE_DIR = CMakeFiles\42.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 42
+
+
+#############################################
+# Link the executable 42.exe
+
+build 42.exe: CXX_EXECUTABLE_LINKER__42_Debug CMakeFiles/42.dir/42._Trapping_Rain_Water.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\42.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 42.exe
+  TARGET_IMPLIB = lib42.dll.a
+  TARGET_PDB = 42.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -785,6 +818,8 @@ build 2225: phony 2225.exe
 
 build 3: phony 3.exe
 
+build 42: phony 42.exe
+
 build 424: phony 424.exe
 
 build 5: phony 5.exe
@@ -809,7 +844,7 @@ build 746: phony 746.exe
 #############################################
 # Folder: C:/Users/Tony/Desktop/LeetCode/cmake-build-debug
 
-build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe 70.exe 746.exe 198.exe 213.exe 5.exe 647.exe 20.exe 155.exe 150.exe 739.exe
+build all: phony 128.exe 217.exe 3.exe 2225.exe 525.exe 560..exe 424.exe 125.exe 167.exe 11.exe 15.exe 70.exe 746.exe 198.exe 213.exe 5.exe 647.exe 20.exe 155.exe 150.exe 739.exe 42.exe
 
 # =============================================================================
 # Built-in targets
